@@ -11,7 +11,7 @@
   },
   "readme": "domino-mvc",
   "author": "Subak Systems <info@subak.jp>",
-  "main": "domino-mvc.js",
+  "main": "domino/mvc.js",
   "scripts": {
     "test": "jasmine-node --runWithRequireJs nodeSpec.js"
   },
