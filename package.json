@@ -1,0 +1,22 @@
+{
+  "name": "domino-mvc",
+  "version": "0.0.1",
+  "description": "domino-mvc",
+  "dependencies": {
+    "domino-class": "git://github.com/subak/domino-class.git"
+  },
+  "devDependencies": {
+    "requirejs": "2.1.x",
+    "jasmine-node": "1.7.x"
+  },
+  "readme": "domino-mvc",
+  "author": "Subak Systems <info@subak.jp>",
+  "main": "domino-mvc.js",
+  "scripts": {
+    "test": "jasmine-node --runWithRequireJs nodeSpec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/subak/domino-mvc.git"
+  }
+}
