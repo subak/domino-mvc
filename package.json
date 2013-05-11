@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "domino-mvc",
   "dependencies": {
-    "domino-class": "git://github.com/subak/domino-class.git"
+    "domino-class": "git://github.com/subak/domino-class.git",
+    "xregexp": "2.0.x",
+    "lodash": "1.2.1"
   },
   "devDependencies": {
     "requirejs": "2.1.x",
@@ -11,7 +13,7 @@
   },
   "readme": "domino-mvc",
   "author": "Subak Systems <info@subak.jp>",
-  "main": "domino/mvc.js",
+  "main": "domino-mvc.js",
   "scripts": {
     "test": "jasmine-node --runWithRequireJs nodeSpec.js"
   },
