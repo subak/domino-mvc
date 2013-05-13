@@ -1,6 +1,5 @@
 function define(modules, callback) {
-  var Class = require("domino-class");
-  module.exports = callback(Class);
+  module.exports = callback(require("uuid"), require("domino-class"));
 }
 var fs = require('fs'),
   callback = eval(fs.readFileSync(__dirname + "/lib/view.js", 'utf8'));
