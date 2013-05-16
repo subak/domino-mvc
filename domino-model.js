@@ -1,6 +1,5 @@
 function define(modules, callback) {
-  var events = require("events");
-  module.exports = callback(require("uuid"), events.EventEmitter, require("domino-class"));
+  module.exports = callback(require("uuid"), require("domino-emitter"));
 }
 var fs = require('fs'),
   callback = eval(fs.readFileSync(__dirname + "/lib/model.js", 'utf8'));
